@@ -1,14 +1,10 @@
-// Firebase-Zugangsdaten der Kasse.
-// Firebase-Konsole → Projekteinstellungen → „Meine Apps“ → Web-App → „Konfiguration“.
-// Diese Werte sind nicht geheim; geschützt wird die Kasse durch die Regeln in firestore.rules.
-window.FIREBASE_CONFIG = null;
-/* Beispiel:
+// Firebase-Zugangsdaten der Kasse (Projekt dialog-bar).
+// Diese Werte sind nicht geheim; geschützt wird die Kasse durch die Firestore-Regeln.
 window.FIREBASE_CONFIG = {
-  apiKey: "...",
+  apiKey: "AIzaSyAf837jqmqsQDNBhs6hzydYtdiU_dCQkdM",
   authDomain: "dialog-bar.firebaseapp.com",
   projectId: "dialog-bar",
-  storageBucket: "dialog-bar.appspot.com",
-  messagingSenderId: "...",
-  appId: "..."
+  storageBucket: "dialog-bar.firebasestorage.app",
+  messagingSenderId: "787004413749",
+  appId: "1:787004413749:web:3f45560f1c55894dc61e7c"
 };
-*/

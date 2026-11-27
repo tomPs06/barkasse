@@ -1,0 +1,16 @@
+rules_version = '2';
+// Nur diese Konten dürfen die Kasse lesen und schreiben.
+// Neue Helfer: E-Mail hier ergänzen und die Regeln in der Firebase-Konsole neu veröffentlichen.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function erlaubt() {
+      return request.auth != null
+        && request.auth.token.email in [
+          "DEINE-EMAIL@example.com"
+        ];
+    }
+    match /{document=**} {
+      allow read, write: if erlaubt();
+    }
+  }
+}

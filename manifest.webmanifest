@@ -1,0 +1,16 @@
+{
+  "name": "DIAlog Bar",
+  "short_name": "DIAlog Bar",
+  "description": "Kasse, Lager und Auswertung für die Bar beim Wismarer DIAlog",
+  "lang": "de",
+  "start_url": "./#verkauf",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F1F1EF",
+  "theme_color": "#F25100",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
